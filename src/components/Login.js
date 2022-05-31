@@ -1,5 +1,5 @@
 import { onNavigate } from "../main.js";
-import { signInApp } from "../lib/authFunctions.js";
+import { signIn } from "../lib/functionFirebase.js";
 
 export const Login = () => {
     const LoginElement = document.createElement("section");
@@ -42,7 +42,7 @@ export const Login = () => {
     e.preventDefault();
     const email = LoginElement.querySelector('#email').value;
     const password = LoginElement.querySelector('#password').value;
-    signInApp ( email, password )
+    signIn ( email, password )
     .then((userCredential) => {
       // Signed in
       const user = userCredential.user;

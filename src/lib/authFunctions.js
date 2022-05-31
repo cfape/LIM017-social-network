@@ -1,6 +1,6 @@
 import {
-  createUser,
-  signIn } from './functionFirebase.js'
+  createUser
+  } from './functionFirebase.js'
 
 
 //const auth = getAuth(app);
@@ -22,8 +22,8 @@ export const registerWithEmail = (email, password) => {
     });
 };
 
-export const signInApp = (email, password) => {
+/*export const signIn = (email, password) => {
 
 return signIn( email, password);
 
-};
+};*/

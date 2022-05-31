@@ -1,6 +1,6 @@
 import { onNavigate } from '../main.js';
 import { registerWithEmail } from '../lib/authFunctions.js';
-//<img class="logo-destinos1" src='./img/destinos.png' alt='destinos+'/>
+
 export const Register = () => {
   const RegisterElement = document.createElement('section');
   RegisterElement.setAttribute('class', 'containerView');

@@ -1,15 +1,18 @@
 //import { auth } from "../lib/authFunctions.js";
 //import { onNavigate } from '../main.js';
 import {
-  savePost,
+  db
+} from '../lib/functionFirebase.js';
+
+import {
   onSnapshot,
   collection,
-  db,
+  savePost,
   getPost,
   deletePosts,
   updatePost,
   signOutFunction
-} from "../lib/firebaseConfig.js";
+} from '../lib/firebaseConfig.js';
 
 // Renderizando el header
 export const Post = () => {
