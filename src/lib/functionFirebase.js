@@ -33,8 +33,8 @@ export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 
 export const auth = getAuth(app);
-export const createUser = ( email, password)  => createUserWithEmailAndPassword(auth, email, password);
-const signIn = ( email, password) => signInWithEmailAndPassword(auth, email, password);
+export const createUser = (email, password)  => createUserWithEmailAndPassword(auth, email, password);
+const signIn = (email, password) => signInWithEmailAndPassword(auth, email, password);
 
 export {
     initializeApp,
