@@ -43,4 +43,5 @@ Como usuario quiero eliminar mi publicación en caso ya no me resulte valiosa.
 ## 4. Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
 * Vista mobile
-![mobile]<img src="/.img/home-vm.png">
+![mobile]
+<img src="/.img/home-vm.png"/>
