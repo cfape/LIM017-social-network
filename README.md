@@ -36,11 +36,8 @@ Como usuario quiero editar mi publicaciones para realizar los cambios que sean n
 
 ### 3.4. Historia de Usuario 4
 Como usuario quiero eliminar mi publicación en caso ya no me resulte valiosa.
-### Criterios de aceptación
-En  la publicación debe aparecer el botón “Eliminar”.
-Al hacer click en el botón “Eliminar” debe desaparecer la publicación.
 
 ## 4. Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
 * Vista mobile
-![mobile]<img src="/.img/home-vm.png"/>
+<p align=center><img src= "https://ibb.co/9NTyDhK" width ="250px" height = "350px"></center></br>
