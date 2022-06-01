@@ -40,4 +40,4 @@ Como usuario quiero eliminar mi publicación en caso ya no me resulte valiosa.
 ## 4. Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
 * Vista mobile
-<p align=center><img src= "https://ibb.co/9NTyDhK" width ="250px" height = "350px"></center></br>
+<p align=center><img src= "https://i.ibb.co/dr2kTtC/home-vm.png" width ="250px" height = "350px"></center></br>
